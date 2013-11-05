@@ -14,3 +14,10 @@ However, so far, I haven't been able to do it. My current workaround is:
 git add *
 git commit -m "update site"
 git push 
+
+
+To do
+=====
+
+- fix the _nb_header problem
+- import old posts
