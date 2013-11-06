@@ -1,8 +1,8 @@
-Title: Japan life tables
-date: 2013-11-05 17:00
+Title: A Response to Falling with helium (Wolfram blog DIY)
+date: 2013-10-30 09:00
 comments: false
-slug: japan-life-tables
-Tags: Japan, statistics
+slug: falling-with-helium
+Tags: Physics
 Category: Python
 
-{% notebook Japan_life_tables.ipynb cells[:] %}
+{% notebook A_Response_to_Falling_with_Helium.ipynb cells[:] %}

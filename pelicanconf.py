@@ -6,7 +6,7 @@ import os
 AUTHOR = u'Florian Le Bourdais'
 SITENAME = u"Frolian's blog"
 SITESUBTITLE = u'xkcd, Python, math and beyond'
-SITEURL = ''
+SITEURL = 'http://flothesof.github.io'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -51,6 +51,8 @@ PLUGIN_PATH = '../pelican-upgrades/pelican-plugins'
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
+
+DISQUS_SITENAME = "froliansblog"
 
 # The theme file should be updated so that the base header contains the line:
 #

@@ -1,6 +1,6 @@
 Title: Japan life tables
 date: 2013-11-05 17:00
-comments: false
+comments: true
 slug: japan-life-tables
 Tags: Japan, statistics
 Category: Python

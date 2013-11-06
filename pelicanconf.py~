@@ -46,12 +46,12 @@ NOTEBOOK_DIR = 'posts'
 #RELATIVE_URLS = True
 
 # Theme and plugins
-THEME = "notmyidea"
+THEME = '../pelican-upgrades/pelican-octopress-theme/'
 PLUGIN_PATH = '../pelican-upgrades/pelican-plugins'
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
-
+DISQUS_SITENAME = "froliansblog"
 # The theme file should be updated so that the base header contains the line:
 #
 #  {% if EXTRA_HEADER %}
