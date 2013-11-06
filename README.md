@@ -1,20 +1,21 @@
 How to publish the site
 =======================
 
+## Rough method
+
 - copy posts directory to content/posts
 - regenerate the site using the pelican command
 - push output directory to master branch of flothesof.github.io repository
 
-The pushi to master branch thing should be easy, according to [this link](http://docs.getpelican.com/en/3.3.0/tips.html). 
-However, so far, I haven't been able to do it. My current workaround is:
+## Manual method
 
-- copy content of output to flothesof.github.io directory
-- commit and push the changes to the master branch of the repository
+- pelican
+- ghp-import output
+- git push -f https://github.com/flothesof/flothesof.github.io.git gh-pages:master
 
-git add *
-git commit -m "update site"
-git push 
+## Automatic method
 
+- make github
 
 To do
 =====
