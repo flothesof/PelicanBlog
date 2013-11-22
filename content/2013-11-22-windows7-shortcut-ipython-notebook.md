@@ -22,4 +22,5 @@ I looked for an even easier right-click and done solution on the internet and co
 
 In case your IPython executable is not located in the *"C:\Python27\Scripts\ipython.exe"* directory, please make changes accordingly.
 
-{% img left /images/windows_ipython_notebook_shortcut.png 'IPython Notebook server shortcut in Windows 7' %} That's it!
+![IPython Notebook server shortcut in Windows 7]({filename}/images/windows_ipython_notebook_shortcut.png) 
+That's it!
