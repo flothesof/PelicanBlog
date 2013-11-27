@@ -25,3 +25,10 @@ In case your IPython executable is not located in the *"C:\Python27\Scripts\ipyt
 ![IPython Notebook server shortcut in Windows 7]({filename}/images/windows_ipython_notebook_shortcut.png) 
 
 That's it! You can now use the IPython Notebook in an even faster way.
+
+*Edit November 27th, 2013:*
+I realized Windows was having trouble whenever I used this command with a path using accentuated (French!) caracters. I found an alternative way of launching the server with the following command:
+
+> cmd.exe /s /k pushd "%V" & "C:\Python27\Scripts\ipython.exe" notebook
+
+This proceeds in a slightly different manner: first, a shell is opened in the directory sent by the command, second the IPython executable is called with the notebook extension.
