@@ -5,4 +5,4 @@ slug: verb-endings-Japanese
 Tags: Japanese
 Category: Python
 
-{% notebook Verb_endings_in_Japanese.ipynb cells[:] %}
+{% notebook 20131123_VerbEndingsInJapanese.ipynb cells[:] %}

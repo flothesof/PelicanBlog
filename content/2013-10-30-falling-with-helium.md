@@ -1,8 +1,8 @@
-Title: A Response to Falling with helium (Wolfram blog DIY)
-date: 2013-10-30 09:00
+Title: A response to falling with helium (Wolfram blog DIY)
+date: 2013-10-08 09:00
 comments: true
 slug: falling-with-helium
 Tags: Physics
 Category: Python
 
-{% notebook A_Response_to_Falling_with_Helium.ipynb cells[:] %}
+{% notebook 20131008_AResponseToFallingWithHelium.ipynb cells[:] %}

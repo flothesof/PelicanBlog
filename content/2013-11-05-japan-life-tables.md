@@ -5,4 +5,4 @@ slug: japan-life-tables
 Tags: Japan, statistics
 Category: Python
 
-{% notebook Japan_life_tables.ipynb cells[:] %}
+{% notebook 20131105_JapanLifeTables.ipynb cells[:] %}

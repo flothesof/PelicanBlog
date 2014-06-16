@@ -7,19 +7,14 @@ import os
 AUTHOR = u'Florian Le Bourdais'
 SITENAME = u"Frolian's blog"
 SITESUBTITLE = u'xkcd, Python, math and beyond'
-SITEURL = 'http://flothesof.github.io'
+SITEURL = '' # this should be changed in publishconf.py
 
 # Timezone
 TIMEZONE = 'Europe/Paris'
+DEFAULT_DATE_FORMAT = '%b %d, %Y'
 
 # Language option
 DEFAULT_LANG = u'en'
-
-# Feed settings
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
 
 # Title menu options
 MENUITEMS = [('Archives', '/archives.html')]
@@ -27,7 +22,7 @@ NEWEST_FIRST_ARCHIVES = False
 
 #Github include settings
 GITHUB_USER = 'flothesof'
-GITHUB_REPO_COUNT = 3
+GITHUB_REPO_COUNT = 5
 GITHUB_SKIP_FORK = True
 GITHUB_SHOW_USER_LINK = True
 
@@ -42,11 +37,13 @@ STATIC_PATHS = ['posts', 'images']
 NOTEBOOK_DIR = 'posts'
 
 # Theme and plugins
-THEME = '../pelican-upgrades/pelican-octopress-theme/'
-PLUGIN_PATH = '../pelican-upgrades/pelican-plugins'
+THEME = 'pelican-octopress-theme/'
+PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
+
+DISPLAY_PAGES_ON_MENU = False
 
 # Disqus integration
 DISQUS_SITENAME = "froliansblog"
