@@ -1,0 +1,3 @@
+[submodule "pelican-octopress-theme"]
+	path = pelican-octopress-theme
+	url = https://github.com/jakevdp/pelican-octopress-theme.git
