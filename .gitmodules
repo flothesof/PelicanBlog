@@ -4,3 +4,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "content/posts"]
+	path = content/posts
+	url = https://github.com/flothesof/posts.git
