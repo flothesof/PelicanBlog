@@ -10,7 +10,7 @@ SITESUBTITLE = u'xkcd, Python, math and beyond'
 SITEURL = '' # this should be changed in publishconf.py
 
 # Timezone
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Pacific'
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
 
 # Language option
