@@ -9,15 +9,11 @@ This repository is used to generate the content for the blog at [http://flotheso
 
 Some help concerning *git submodules* can be found at the following link: [http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/](http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/).
 
-How to publish the site
-=======================
+How to publish the content of this site
+=======================================
 
-## Manual method
-
-- make publish
-- ghp-import output
-- git push -f https://github.com/flothesof/flothesof.github.io.git gh-pages:master
-
-## Automatic method
-
-- make github
+- write content in an IPython post
+- update submodule with posts
+- create a markdown file for the post
+- publish and check that the output is correct
+- make deploy from the command line to push to flothesof.github.io

@@ -33,8 +33,8 @@ GITHUB_SHOW_USER_LINK = True
 DEFAULT_PAGINATION = 10
 
 # Static paths that will be copied to the website for content hosting
-# 'posts' contains IPython Notebooks, 'images' static images linked to in blog articles
-STATIC_PATHS = ['posts', 'images']
+# 'images' static images linked to in blog articles
+STATIC_PATHS = ['images']
 
 # Path for IPython Notebook plugin
 NOTEBOOK_DIR = 'posts'

@@ -7,6 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+DEPLOYREPOSITORY=flothesof.github.io
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -101,8 +102,13 @@ s3_upload: publish
 cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
-github: publish
-	ghp-import $(OUTPUTDIR)
-	git push -f https://github.com/flothesof/flothesof.github.io.git gh-pages:master
+deploy: publish
+	cd _build/$(DEPLOYREPOSITORY)
+	git pull
+	xcopy /s /y "$(OUTPUTDIR)" "_build/$(DEPLOYREPOSITORY)"
+	git add .
+	git commit -m "make deploy"
+	git push origin master
+	
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy

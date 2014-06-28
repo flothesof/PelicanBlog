@@ -9,9 +9,9 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'http://flothesof.github.io'
+SITEURL = 'https://flothesof.github.io'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
+# publishing items
 DISQUS_SITENAME = "froliansblog"
