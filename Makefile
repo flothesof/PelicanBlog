@@ -103,12 +103,14 @@ cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
 deploy: publish
-	cd _build/$(DEPLOYREPOSITORY)
-	git pull
+	cd _build/$(DEPLOYREPOSITORY) && git pull
 	xcopy /s /y "$(OUTPUTDIR)" "_build/$(DEPLOYREPOSITORY)"
-	git add .
-	git commit -m "make deploy"
-	git push origin master
+	cd _build/$(DEPLOYREPOSITORY) && git add .
+	cd _build/$(DEPLOYREPOSITORY) && git commit -m "make deploy"
+	cd _build/$(DEPLOYREPOSITORY) && git push origin master
+
+testdeploy: 
+	cd "_build/$(DEPLOYREPOSITORY)" && git status
 	
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy
