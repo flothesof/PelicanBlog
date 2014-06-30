@@ -13,7 +13,7 @@ How to publish the content of this site
 =======================================
 
 - write content in an IPython post
-- update submodule with posts
+- update submodule containing posts
 - create a markdown file for the post
-- publish and check that the output is correct
-- make deploy from the command line to push to flothesof.github.io
+- *make html* and check that the output is correct
+- *make deploy* from the command line to push to flothesof.github.io
