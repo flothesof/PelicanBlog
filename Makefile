@@ -104,13 +104,13 @@ cf_upload: publish
 
 deploy: publish
 	cd _build/$(DEPLOYREPOSITORY) && git pull
-	xcopy /s /y "$(OUTPUTDIR)" "_build/$(DEPLOYREPOSITORY)"
+	xcopy /s/y output _build\flothesof.github.io
 	cd _build/$(DEPLOYREPOSITORY) && git add .
 	cd _build/$(DEPLOYREPOSITORY) && git commit -m "make deploy"
 	cd _build/$(DEPLOYREPOSITORY) && git push origin master
 
 testdeploy: 
-	cd "_build/$(DEPLOYREPOSITORY)" && git status
+	xcopy /s/y output _build\flothesof.github.io
 	
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy
