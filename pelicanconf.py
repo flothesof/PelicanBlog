@@ -21,7 +21,7 @@ LOCALE = ('usa',  # On Windows
 	
 # Title menu options
 MENUITEMS = [('Archives', '/archives.html')]
-NEWEST_FIRST_ARCHIVES = False
+NEWEST_FIRST_ARCHIVES = True
 
 #Github include settings
 GITHUB_USER = 'flothesof'
