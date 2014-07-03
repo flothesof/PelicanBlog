@@ -11,6 +11,10 @@ from pelicanconf import *
 
 SITEURL = 'https://flothesof.github.io'
 
+# RSS/Atom feeds
+FEED_DOMAIN = SITEURL
+FEED_ATOM = 'atom.xml'
+
 DELETE_OUTPUT_DIRECTORY = True
 
 # publishing items

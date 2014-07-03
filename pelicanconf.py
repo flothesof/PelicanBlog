@@ -7,7 +7,7 @@ import os
 AUTHOR = u'Florian Le Bourdais'
 SITENAME = u"Frolian's blog"
 SITESUBTITLE = u'xkcd, Python, math and beyond'
-SITEURL = '' # this should be changed in publishconf.py
+SITEURL = '.' # this should be changed in publishconf.py
 
 # Timezone
 TIMEZONE = "Europe/Paris"
@@ -20,7 +20,8 @@ LOCALE = ('usa',  # On Windows
     )
 	
 # Title menu options
-MENUITEMS = [('Archives', '/archives.html')]
+MENUITEMS = [('Archives', '/archives.html'),
+				('About me', '/pages/about-me.html')]
 NEWEST_FIRST_ARCHIVES = True
 
 #Github include settings
@@ -41,7 +42,7 @@ NOTEBOOK_DIR = 'posts'
 
 # Theme and plugins
 THEME = 'pelican-octopress-theme/'
-PLUGIN_PATH = 'pelican-plugins'
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
@@ -55,10 +56,6 @@ if not os.path.exists('_nb_header.html'):
                   "Rerun make html to finalize build.")
 else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
-
-# RSS/Atom feeds
-FEED_DOMAIN = SITEURL
-FEED_ATOM = 'atom.xml'
 
 # Search
 SEARCH_BOX = True
