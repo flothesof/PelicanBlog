@@ -105,8 +105,7 @@ cf_upload: publish
 deploy: publish
 	cd _build/$(DEPLOYREPOSITORY) && git pull
 	xcopy /s/y output _build\flothesof.github.io
-	cd _build/$(DEPLOYREPOSITORY) && git add .
-	cd _build/$(DEPLOYREPOSITORY) && git commit -m "make deploy"
+	cd _build/$(DEPLOYREPOSITORY) && git add -A && git commit -m "make deploy"
 	cd _build/$(DEPLOYREPOSITORY) && git push origin master
 
 testdeploy: 
