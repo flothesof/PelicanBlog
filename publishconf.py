@@ -9,7 +9,8 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'https://flothesof.github.io'
+SITEURL = 'http://flothesof.github.io'
+RELATIVE_URLS = False
 
 # RSS/Atom feeds
 FEED_DOMAIN = SITEURL
@@ -17,5 +18,4 @@ FEED_ATOM = 'atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# publishing items
-DISQUS_SITENAME = "froliansblog"
+

@@ -7,7 +7,7 @@ import os
 AUTHOR = u'Florian Le Bourdais'
 SITENAME = u"Frolian's blog"
 SITESUBTITLE = u'xkcd, Python, math and beyond'
-SITEURL = '.' # this should be changed in publishconf.py
+SITEURL = 'http://flothesof.github.io'
 
 # Timezone
 TIMEZONE = "Europe/Paris"
@@ -61,3 +61,6 @@ else:
 SEARCH_BOX = True
 
 RELATIVE_URLS = True
+
+# publishing items
+DISQUS_SITENAME = "froliansblog"
