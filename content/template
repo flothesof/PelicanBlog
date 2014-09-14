@@ -1,8 +1,9 @@
-Title: A Wave Reflecting On A Boundary
+﻿Title: A Wave Reflecting On A Boundary
 date: 2014-06-02 15:12
 comments: true
 slug: wave-boundary-reflection
 Tags: Waves, Physics
 Category: Python
+Summary: We're examining what happens when a wave hits a boundary normal to its propagation direction.
 
 {% notebook 20140602_AWaveReflectingOnABoundary.ipynb cells[:] %}

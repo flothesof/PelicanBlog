@@ -58,6 +58,7 @@ html:
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+	[ ! -d cache ] || rm -rf cache
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
@@ -102,14 +103,22 @@ s3_upload: publish
 cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
-deploy: publish
-	cd _build/$(DEPLOYREPOSITORY) && git pull
-	xcopy /s/y output _build\flothesof.github.io
+
+
+deploy:clean
+	publish
+	update_content_from_source
+	copy_generated_content
 	cd _build/$(DEPLOYREPOSITORY) && git add -A && git commit -m "make deploy"
 	cd _build/$(DEPLOYREPOSITORY) && git push origin master
 
-testdeploy: 
-	xcopy /s/y output _build\flothesof.github.io
-	
+update_content_from_source: cd _build/$(DEPLOYREPOSITORY) && git pull
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy
+copy_generated_content: xcopy /s/y output _build\flothesof.github.io
+
+	
+testdeploy:clean
+	publish
+
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy testdeploy
+
