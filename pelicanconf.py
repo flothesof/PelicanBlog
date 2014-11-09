@@ -57,9 +57,10 @@ if not os.path.exists('_nb_header.html'):
 else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
-# Search
-SEARCH_BOX = True
-
+ 
+#EXTRA_HEADER = open('_nb_header_minimal.html').read().decode('utf-8')
+#PYGMENTS_STYLE='default'
+	
 RELATIVE_URLS = True
 
 # publishing items
