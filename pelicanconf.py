@@ -45,7 +45,11 @@ THEME = 'pelican-octopress-theme/'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
-           'liquid_tags.literal']
+           'liquid_tags.literal', 'feed_summary']
+
+# activate feed summary
+FEED_USE_SUMMARY = True		   
+
 
 DISPLAY_PAGES_ON_MENU = False
 
