@@ -113,4 +113,14 @@ deploy:
 	cd _build/$(DEPLOYREPOSITORY) && git add -A && git commit -m "make deploy"
 	cd _build/$(DEPLOYREPOSITORY) && git push origin master
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy
+deploy_mac: 
+	cd _build/$(DEPLOYREPOSITORY) && git pull
+	rsync -r $(OUTPUTDIR)/* _build/flothesof.github.io
+	cd _build/$(DEPLOYREPOSITORY) && git add -A :/ && git commit -m "make deploy"
+	cd _build/$(DEPLOYREPOSITORY) && git push origin master
+
+clean_mac:
+	rm -r cache
+	rm -r output
+
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy deploy_mac clean_mac

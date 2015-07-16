@@ -9,6 +9,11 @@ This repository is used to generate the content for the blog at [http://flotheso
 
 Some help concerning *git submodules* can be found at the following link: [http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/](http://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/).
 
+Note to self: when initializing this repository for the first time on a new computer, I need to update the submodules so that they actually contain the files I'm linking to. But before that, I also need to init the submodules. Both steps can be completed in one command, for example: 
+
+>git submodule update --init pelican-plugins/
+
+
 How to publish the content of this site
 =======================================
 

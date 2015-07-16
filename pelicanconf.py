@@ -59,11 +59,11 @@ if not os.path.exists('_nb_header.html'):
     warnings.warn("_nb_header.html not found.  "
                   "Rerun make html to finalize build.")
 else:
-    EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+    EXTRA_HEADER = open('_nb_header.html').read()
 
  
 #EXTRA_HEADER = open('_nb_header_minimal.html').read().decode('utf-8')
-#PYGMENTS_STYLE='default'
+PYGMENTS_STYLE='default'
 	
 RELATIVE_URLS = True
 
