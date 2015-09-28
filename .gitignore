@@ -6,3 +6,4 @@ _nb_header.html
 *.md~
 cache
 cache/ArticlesGenerator-Readers
+.DS_STORE
