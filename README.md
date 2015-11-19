@@ -22,3 +22,9 @@ How to publish the content of this site
 - create a markdown file for the post
 - *make html* and check that the output is correct
 - *make deploy* from the command line to push to flothesof.github.io
+
+Travis-CI publishing
+====================
+
+Link to tutorial: [http://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html](http://zonca.github.io/2013/09/automatically-build-pelican-and-publish-to-github-pages.html).
+
