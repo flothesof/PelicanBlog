@@ -14,8 +14,7 @@ script:
   - git config --global user.email "TravisBot@nomail"
   - git config --global user.name "TravisBot"
   - git config --global push.default simple
-  - cd ..
-  - git clone https://github.com/flothesof/PelicanBlog
+  - git clone --recursive https://github.com/flothesof/PelicanBlog
   - cd PelicanBlog/content/posts
   - git pull
   - cd ../.. 
