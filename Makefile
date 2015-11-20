@@ -118,6 +118,11 @@ deploy_mac:
 	rsync -r $(OUTPUTDIR)/* _build/flothesof.github.io
 	cd _build/$(DEPLOYREPOSITORY) && git add -A :/ && git commit -m "make deploy"
 	cd _build/$(DEPLOYREPOSITORY) && git push origin master
+	
+deploy_travis:
+	rsync -r $(OUTPUTDIR)/* _build/flothesof.github.io
+	cd _build/$(DEPLOYREPOSITORY) && git add -A :/ && git commit -m "make deploy"
+	cd _build/$(DEPLOYREPOSITORY) && git push origin master
 
 clean_mac:
 	rm -r cache
