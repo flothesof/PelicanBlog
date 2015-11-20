@@ -1,22 +1,18 @@
-# inspired by 
 language: python
 sudo: false
-
 matrix:
   include:
-    - python: 2.7
-
+  - python: 2.7
 install:
-  - pip install jupyter pelican markdown
-
-
+- pip install jupyter pelican markdown
 script:
-  - git config --global user.email "TravisBot@nomail"
-  - git config --global user.name "TravisBot"
-  - git config --global push.default simple
-  - git clone --recursive https://github.com/flothesof/PelicanBlog
-  - cd PelicanBlog
-  - ls
-  - make publish
-
-
+- git config --global user.email "TravisBot@nomail"
+- git config --global user.name "TravisBot"
+- git config --global push.default simple
+- git clone --recursive https://github.com/flothesof/PelicanBlog
+- cd PelicanBlog
+- ls
+- make publish
+env:
+  global:
+    secure: fKXUdZyp0qx18VPu46FWindvMBMRdm3K8YtU1vytosnKVibTsyWk4VSeUaOFYQLdMaeFBwO3UEJPYpTwc6JBC9uld5Tm/c8UB9tvqUkYC16O1vHNBF9WlPOhR41pbAfjbL03nSBUzB0xcudTdXT/SSt+z6NF/jXTLgfh1wmqWzW4UBQK9ZilfOxt0duqT5YRFSV8GYqoWpckRkRVHLcLaBae0yRXXfaxmv59NPvT8IO1QJ0ZY1K9zNLlAa3TDSLQZKdk+dh6BOQzPGeP4pfmFMNTQirvrEtMppizIvCMFKqFWH2z1sL1+Cc63fwKQ49S8AqLMXAxGBPFSARGIVH1l/a8UqI6BUIIK4p95fOq9ltH8z3iJDpz3NPqWne3rHhf5B9Lkwtdu922Rpyeqg/bJI9J+fFEU6xy8IEHgSP06Z7iE30E74sVBku/x8RFkzRnfhZ+hQs8YMfPqlSWuO5B8MluzCP9HOvMWo98aE615VCTLYEGXPjw9MyOdIecQgiJY+yWiUfTfu4l6J6px9WApHYPq4L5s7mVLW4c1xYlhYepwdW554S9jm0YjEPRLD2X/texXOOKl3TlEgDjVan/m2tcy0qpR/Yk9iUdNLjqs0gyD8XADdIhVHXmOyDFomgOjgLWCGwLL80STles2+Eg+PISf/Le37GPAqbcY8Ri8+A=
