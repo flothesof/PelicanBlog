@@ -128,4 +128,4 @@ clean_mac:
 	rm -r cache
 	rm -r output
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy deploy_mac clean_mac
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload deploy deploy_mac clean_mac deploy_travis
