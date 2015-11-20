@@ -15,5 +15,8 @@ script:
   - git config --global user.name "TravisBot"
   - git config --global push.default simple
   - git clone --recursive https://github.com/flothesof/PelicanBlog
+  - cd PelicanBlog
+  - ls
   - make publish
+
 
