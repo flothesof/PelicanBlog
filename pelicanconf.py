@@ -24,11 +24,14 @@ MENUITEMS = [('Archives', '/archives.html'),
 				('About me', '/pages/about-me.html')]
 NEWEST_FIRST_ARCHIVES = True
 
-#Github include settings
+# Github include settings
 GITHUB_USER = 'flothesof'
 GITHUB_REPO_COUNT = 5
 GITHUB_SKIP_FORK = True
 GITHUB_SHOW_USER_LINK = True
+
+# Twitter
+TWITTER_USERNAME = 'frolianlb'
 
 # Number of articles per page
 DEFAULT_PAGINATION = 10
