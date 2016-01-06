@@ -2,7 +2,7 @@ language: python
 sudo: false
 matrix:
   include:
-  - python: 2.7
+  - python: 3.5
 install:
 - pip install jupyter pelican markdown
 script:
