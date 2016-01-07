@@ -9,8 +9,11 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'http://flothesof.github.io'
+# use absolute URLs to publish (unlike pelicanconf)
 RELATIVE_URLS = False
+
+# Disqus integration 
+DISQUS_SITENAME = "froliansblog"
 
 # RSS/Atom feeds
 FEED_DOMAIN = SITEURL
