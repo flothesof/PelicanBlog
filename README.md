@@ -1,3 +1,5 @@
+![travis](https://travis-ci.org/flothesof/PelicanBlog.svg?branch=master)
+
 How this repository works
 =========================
 
