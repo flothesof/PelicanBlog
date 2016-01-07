@@ -1,4 +1,4 @@
-![travis](https://travis-ci.org/flothesof/PelicanBlog.svg?branch=master)
+[![Build Status](https://travis-ci.org/flothesof/PelicanBlog.svg?branch=master)](https://travis-ci.org/flothesof/PelicanBlog)
 
 How this repository works
 =========================
