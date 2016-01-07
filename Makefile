@@ -121,8 +121,8 @@ deploy_mac:
 
 deploy_travis:
 	rsync -r $(OUTPUTDIR)/* _build/flothesof.github.io
-	cd _build/$(DEPLOYREPOSITORY) && git add -A :/ && git commit -m "make deploy"
-	@cd _build/$(DEPLOYREPOSITORY) && git push https://${GH_TOKEN}@github.com/flothesof/flothesof.github.io.git master > /dev/null
+	cd _build/$(DEPLOYREPOSITORY) && git add -A :/ && git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
+	@cd _build/$(DEPLOYREPOSITORY) && git push -fq https://${GH_TOKEN}@github.com/flothesof/flothesof.github.io.git master > /dev/null
 
 clean_mac:
 	rm -r cache
