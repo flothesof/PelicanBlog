@@ -1,4 +1,4 @@
-﻿Title: L'âge moyen des députés français
+﻿Title: L'âge moyen des sénateurs français
 date: 2016-01-11 11:30
 comments: true
 slug: age-moyen-senateurs-francais
