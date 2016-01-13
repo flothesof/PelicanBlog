@@ -24,10 +24,25 @@ The most important conclusion for me is: MOOCs are a great way to learn somethin
 
 ## Is it easy to take MOOCs?
 
+I believe the answer to that question is no. MOOCs are hard, for several reasons.
 One of my personal takeaways from my year of MOOCs is that the most critical aspect to success with these is the time you can put into them.
 As a full-time employee, it's not easy to set the many hours per week required for each course aside. I'm lucky to have a regular transportation schedule, which made taking time predictable (even if it was hard, due to the fact that I mostly watched lectures in the bus in the evening, after work).
 It cannot be stressed enough that taking a MOOC is often a 10 week commitment. This can get hairy with holidays, weekend trips and homework assignments that take longer than expected.
-If you don't have the time, don't commit to taking a MOOC. 
+My personal rule is: if you don't have the time, don't commit to taking a MOOC. 
+
+The statistics for the MOOC Audio Signal Processing for Audio Applications I finished in January 2016 are:
+
+- Total learners joined: 14,460
+- Learners that visited the course: 9,720
+- Learners that watched a lecture: 7,047
+- Learners that browsed the forums: 3,059
+- Learners that submitted an exercise: 2,149
+- Learners that obtained a grade >70% (got an Statement of Accomplishment): 351
+
+I made an illustration to convey a graphical intuition of this in the form of a Sankey diagram:
+![Alt Text]({filename}/images/moocs_are_hard.png)
+
+So, to sum this section up, MOOCs are hard. Few finish them the way they're meant (2% in the above case). It takes determination and time.
 
 ## Does this make a difference in my career?
 
