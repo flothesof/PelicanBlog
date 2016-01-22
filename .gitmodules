@@ -4,7 +4,6 @@
 [submodule "content/posts"]
 	path = content/posts
 	url = https://github.com/flothesof/posts.git
-
-[submodule "pelican-octopress-theme"]
-	path = pelican-octopress-theme
-	url = https://github.com/duilio/pelican-octopress-theme.git
+[submodule "pelican-clean-blog"]
+	path = pelican-clean-blog
+	url = https://github.com/flothesof/pelican-clean-blog.git
