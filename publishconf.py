@@ -12,6 +12,9 @@ from pelicanconf import *
 # use absolute URLs to publish (unlike pelicanconf)
 RELATIVE_URLS = False
 
+# put real site URL instead of localhost
+SITEURL = 'http://flothesof.github.io'
+
 # Disqus integration 
 DISQUS_SITENAME = "froliansblog"
 
