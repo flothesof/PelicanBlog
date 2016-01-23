@@ -42,7 +42,7 @@ SOCIAL = (('twitter', 'https://twitter.com/frolianlb'),
 MENUITEMS = [('Archives', '/archives.html')]
                 
 # code highlighting (check README of theme for more info)
-COLOR_SCHEME_CSS = 'tomorrow.css'
+COLOR_SCHEME_CSS = 'github.css'
 
 # notebook integration using liquid tags
 PLUGIN_PATHS = ['pelican-plugins']
@@ -51,12 +51,13 @@ NOTEBOOK_DIR = 'posts'
 # we're not injecting the notebook header, because it pollutes the blog style
 #EXTRA_HEADER = open('_nb_header.html').read()
 # however, to get mathjax properly working in the notebook posts, we need this basic header
-if not os.path.exists('mathjax_script.html'):
+header_name = 'custom_header.html'
+if not os.path.exists(header_name):
     import warnings
-    warnings.warn("mathjax_script.html not found.  "
+    warnings.warn("Custom header not found.  "
                   "Rerun make html to finalize build.")
 else:
-    EXTRA_HEADER = open('mathjax_script.html').read()
+    EXTRA_HEADER = open(header_name).read()
 
 # rendering mathjax in markdown posts directly
 PLUGINS.append('render_math')
