@@ -8,6 +8,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
+        
+        {% if EXTRA_HEADER %}
+            {{ EXTRA_HEADER }}
+        {% endif %}
 
         {% if GOOGLE_SITE_VERIFICATION %}
             <meta name="google-site-verification" content="{{ GOOGLE_SITE_VERIFICATION }}">
@@ -78,9 +82,6 @@
 		<meta property="og:site_name" content="{{ SITENAME }}">
 	{% endblock opengraph %}
 	
-	{% if EXTRA_HEADER %}
-		{{ EXTRA_HEADER }}
-	{% endif %}
 </head>
 
 <body>

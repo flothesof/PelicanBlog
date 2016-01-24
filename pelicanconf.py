@@ -51,7 +51,8 @@ NOTEBOOK_DIR = 'posts'
 # we're not injecting the notebook header, because it pollutes the blog style
 #EXTRA_HEADER = open('_nb_header.html').read()
 # however, to get mathjax properly working in the notebook posts, we need this basic header
-header_name = 'custom_header.html'
+#header_name = 'custom_header.html'
+header_name = '_custom_nb_header.html'
 if not os.path.exists(header_name):
     import warnings
     warnings.warn("Custom header not found.  "
