@@ -8,6 +8,10 @@ I'm currently a research engineer at [CEA](http://www.cea.fr/english-portal) (th
 
 I work in the Non-Destructive Testing department on the Saclay (near Paris) research center. My work topics concern mostly ultrasound based inspection methods, with a focus on phased array transducers, guided waves and EMATs. I studied mechanical engineering at the [École des Ponts ParisTech](http://www.enpc.fr/). Before working at CEA, I had the amazing opportunity to spend two years in Japan, where I learned to live and love the Japanese culture.
 
+I sometimes like to solve problems proposed by Project Euler. You can see my current badge below:
+
+![badge](https://projecteuler.net/profile/furothesof.png)
+
 ##Conference proceedings
 
 [1] *F. Le Bourdais* et B. Marchand, « Design of EMAT Phased Arrays for SFR Inspection », in Proceedings of the Review of Progress in Quantitative NDE Baltimore, USA, 2013.
