@@ -23,7 +23,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# activate feed summary (smaller feeds)
+# activate feed summary (smaller sized feeds)
 FEED_USE_SUMMARY = True	
 
 DEFAULT_PAGINATION = 10
