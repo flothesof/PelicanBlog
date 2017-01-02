@@ -62,3 +62,6 @@ else:
 
 # rendering mathjax in markdown posts directly
 PLUGINS.append('render_math')
+
+# since upgrade to Pelican 3.7, to prevent KeyError
+MD_EXTENSIONS = []
