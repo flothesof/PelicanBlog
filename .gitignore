@@ -8,3 +8,4 @@ cache
 cache/ArticlesGenerator-Readers
 .DS_STORE
 _nb_header.html
+/content/.DS_Store
