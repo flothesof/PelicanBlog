@@ -1,4 +1,4 @@
-﻿Title: A Wave Reflecting On A Boundary
+﻿Title: Summing Complex Exponentials: a Classical Visualization
 date: 2017-02-07 18:00
 comments: true
 slug: summing-complex-exponentials
