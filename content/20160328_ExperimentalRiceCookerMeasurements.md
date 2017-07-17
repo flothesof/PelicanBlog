@@ -6,4 +6,4 @@ Tags: Physics
 Category: Python
 Summary: In this blog post, I'll describe how I setup an Arduino to  measure the temperature in my rice cooker during cooking and Python to analyze the data.
 
-{% notebook 20160328_ExperimentalRiceCookerMeasurements.ipynb cells[:] %}
+{% notebook posts/20160328_ExperimentalRiceCookerMeasurements.ipynb cells[:] %}

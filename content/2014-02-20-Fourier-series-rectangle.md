@@ -5,4 +5,4 @@ slug: Fourier-series-rectangle
 Tags: Mathematics
 Category: Python
 
-{% notebook 20140220_SinesAndRectangles.ipynb cells[:] %}
+{% notebook posts/20140220_SinesAndRectangles.ipynb cells[:] %}

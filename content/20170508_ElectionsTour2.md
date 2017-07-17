@@ -6,4 +6,4 @@ Tags: Politique française
 Category: Python
 Summary: Dans ce billet, nous utilisons les données du ministère de l'intérieur pour cartographier les résultats du second tour de l'élection présidentielle 2017.
 
-{% notebook 20170508_ElectionsTour2.ipynb cells[:] %}
+{% notebook posts/20170508_ElectionsTour2.ipynb cells[:] %}

@@ -6,4 +6,4 @@ Tags: Image Processing
 Category: Python
 Summary: Triggered by a thread on StackOverflow, we try to remove the background of a sample image using scikit-image.
 
-{% notebook 20160901_RemovingBackgroundFromImage.ipynb cells[:] %}
+{% notebook posts/20160901_RemovingBackgroundFromImage.ipynb cells[:] %}

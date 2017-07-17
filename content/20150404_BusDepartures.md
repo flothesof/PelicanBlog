@@ -6,4 +6,4 @@ Tags: Geography
 Category: Python
 Summary: In this post, we will use a little geography to determine the topology of Paris as seen from the point of view of my alarm clock. 
 
-{% notebook 20150404_BusDepartures.ipynb cells[:] %}
+{% notebook posts/20150404_BusDepartures.ipynb cells[:] %}

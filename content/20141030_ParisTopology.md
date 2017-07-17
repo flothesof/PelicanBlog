@@ -9,4 +9,4 @@ Summary: In this post we use the elevation API provided by Google to obtain some
 **Update November 3, 2014**: I printed the model using an Ultimaker. You can find it on [Thingiverse](http://www.thingiverse.com/thing:530054). Here's what it looks like when printed.
 ![Paris Relief]({filename}images/printed_relief.jpg) 
 
-{% notebook 20141027_ParisTopology.ipynb cells[:] %}
+{% notebook posts/20141027_ParisTopology.ipynb cells[:] %}

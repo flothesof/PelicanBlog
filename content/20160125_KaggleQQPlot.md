@@ -6,4 +6,4 @@ Tags: Kaggle, QQ Plots, Food
 Category: Python
 Summary: Another look at the Kaggle What's Cooking dataset, from the visualization side. This time, we'll use Bokeh for interactive visualization of QQ plots.
 
-{% notebook 20160125_RankRankPlot.ipynb cells[:] %}
+{% notebook posts/20160125_RankRankPlot.ipynb cells[:] %}

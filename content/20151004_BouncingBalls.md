@@ -6,4 +6,4 @@ Tags: Physics, Gravity
 Category: Python
 Summary: In this notebook, we'll go to the bottom of a thought that occured to me during a recent Lindy Hop class. 
 
-{% notebook 20151001_BouncingBalls.ipynb cells[:] %}
+{% notebook posts/20151001_BouncingBalls.ipynb cells[:] %}

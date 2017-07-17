@@ -6,4 +6,4 @@ Tags: Math, Geometry
 Category: Python
 Summary: This post is an excuse for a little geometric exploration related to squares and circles and how they map on each other. 
 
-{% notebook 20160406_MappingDiskToSquare.ipynb cells[:] %}
+{% notebook posts/20160406_MappingDiskToSquare.ipynb cells[:] %}

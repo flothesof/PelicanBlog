@@ -6,4 +6,4 @@ Tags: Japanese
 Category: Python
 Summary: This post visualizes the relationship between kanji and vocabulary data from my Japanese language learning deck using graphs.
 
-{% notebook 20141020_JapaneseLanguageGraphs.ipynb cells[:] %}
+{% notebook posts/20141020_JapaneseLanguageGraphs.ipynb cells[:] %}

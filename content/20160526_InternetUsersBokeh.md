@@ -6,4 +6,4 @@ Tags: Bokeh, data vizualization
 Category: Python
 Summary: In this post, I'm using Bokeh to visualize world bank data about GDP and internet usage as a function of time.
 
-{% notebook 20160526_InternetUsersBokeh.ipynb cells[:] %}
+{% notebook posts/20160526_InternetUsersBokeh.ipynb cells[:] %}

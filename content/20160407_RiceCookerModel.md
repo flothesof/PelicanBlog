@@ -6,4 +6,4 @@ Tags: Physics, Food
 Category: Python
 Summary: Following a previous experimental post on rice cookers, we explore a simple model that allows the prediction of the temperature measurements performed above the rice cooker.
 
-{% notebook 20160407_0dModelRiceCooking.ipynb cells[:] %}
+{% notebook posts/20160407_0dModelRiceCooking.ipynb cells[:] %}

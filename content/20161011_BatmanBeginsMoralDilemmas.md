@@ -6,4 +6,4 @@ Tags: Ethics, moviepy
 Category: Python
 Summary: This blog post is devoted to Batman Begins (2005) and its numerous moral dilemmas. We use moviepy to produce short, annotated movie clips showcasing some of the interesting situations from the movie.
 
-{% notebook 20161011_BatmanBeginsMoralDilemmas.ipynb cells[:] %}
+{% notebook posts/20161011_BatmanBeginsMoralDilemmas.ipynb cells[:] %}

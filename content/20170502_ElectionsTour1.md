@@ -6,4 +6,4 @@ Tags: Politique française
 Category: Python
 Summary: Dans ce billet, nous combinons les données du ministère de l'intérieur avec les contours des départements pour cartographier les résultats du premier tour de l'élection présidentielle 2017.      
 
-{% notebook 20170502_ElectionsTour1.ipynb cells[:] %}
+{% notebook posts/20170502_ElectionsTour1.ipynb cells[:] %}

@@ -10,4 +10,4 @@ Summary: What would you do in Korea where everyone uses the same Samsung rington
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/Os9t1RVy00c" frameborder="0" allowfullscreen></iframe>
 
-{% notebook 20140915_SamsungRingtone.ipynb cells[:] %}
+{% notebook posts/20140915_SamsungRingtone.ipynb cells[:] %}

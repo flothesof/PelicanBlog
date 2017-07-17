@@ -5,4 +5,5 @@ slug: falling-with-helium
 Tags: Physics
 Category: Python
 
-{% notebook 20131008_AResponseToFallingWithHelium.ipynb cells[:] %}
+{% notebook posts/20131008_AResponseToFallingWithHelium.ipynb cells[:] %}
+

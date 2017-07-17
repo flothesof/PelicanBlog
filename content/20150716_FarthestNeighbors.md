@@ -6,7 +6,7 @@ Tags: Mathematics
 Category: Python
 Summary: In this notebook, we take a look at the farthest neighbors algorithm, in the fashion of Peter Norvig. 
 
-{% notebook 20150716_FarthestNeighbors.ipynb cells[:] %}
+{% notebook posts/20150716_FarthestNeighbors.ipynb cells[:] %}
 
 
 

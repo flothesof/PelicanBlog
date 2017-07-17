@@ -6,4 +6,4 @@ Tags: Demographics
 Category: Python
 Summary: In this post, we smooth data by Ramiro Gomez and display it using bokeh.
 
-{% notebook 20160223_DeadMusicians.ipynb cells[:] %}
+{% notebook posts/20160223_DeadMusicians.ipynb cells[:] %}

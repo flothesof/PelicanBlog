@@ -6,4 +6,4 @@ Tags: Machine Learning, OpenCV
 Category: Python
 Summary: In this post, we’re using a little of machine learning, some IPython notebook interaction and OpenCV to determine if a face found in the webcam’s frame is smiling or not.
 
-{% notebook 20150107_SmileRecognition.ipynb cells[:] %}
+{% notebook posts/20150107_SmileRecognition.ipynb cells[:] %}

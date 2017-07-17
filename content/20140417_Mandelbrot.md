@@ -5,4 +5,4 @@ slug: Mandelbrot-fractal
 Tags: Fractals, Math
 Category: Python
 
-{% notebook 20140417_Mandelbrot.ipynb cells[:] %}
+{% notebook posts/20140417_Mandelbrot.ipynb cells[:] %}

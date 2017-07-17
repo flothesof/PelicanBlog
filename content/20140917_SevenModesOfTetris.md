@@ -6,4 +6,4 @@ Tags: Sound, Game Boy
 Category: Python
 Summary: You'll never listen to Tetris in the same way again after hearing our seven church modes rendition with a Game Boy and a bowl sound.
 
-{% notebook 20140917_SevenModesOfTetris.ipynb cells[:] %}
+{% notebook posts/20140917_SevenModesOfTetris.ipynb cells[:] %}

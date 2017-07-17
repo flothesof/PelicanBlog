@@ -6,4 +6,4 @@ Tags: Programming, Algorithms
 Category: Python
 Summary: In this post, we discuss how to measure the complexity of an algorithm using three implementations of the Fibonacci sequence.
 
-{% notebook 20160531_MeasuringComplexityAlgorithm.ipynb cells[:] %}
+{% notebook posts/20160531_MeasuringComplexityAlgorithm.ipynb cells[:] %}

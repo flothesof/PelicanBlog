@@ -6,4 +6,4 @@ Tags: Digital Signal Processing, Music, Coursera
 Category: Python
 Summary: Ever wondered what happens when you window a signal before computing a FFT? Hamming, boxcar, Blackman anyone? In this post, we're looking at all these windows from a fresh point of view and detail some of their applications to signal analysis. 
 
-{% notebook 20151028_FilteringWindowProperties.ipynb cells[:] %}
+{% notebook posts/20151028_FilteringWindowProperties.ipynb cells[:] %}

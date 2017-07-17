@@ -6,4 +6,4 @@ Tags: Physics, Plasma, Numerical Integration
 Category: Python
 Summary: In plasma physics, charged particles are subject to magnetic and electric fields. In this notebook, we investigate their trajectories in special cases of these fields.
 
-{% notebook 20160128_chargedParticleMotions.ipynb cells[:] %}
+{% notebook posts/20160128_chargedParticleMotions.ipynb cells[:] %}

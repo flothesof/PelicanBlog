@@ -6,4 +6,4 @@ Tags: France, Politique
 Category: Python
 Summary: Ce billet me donne l'occasion d'une nouvelle exploration sur la présence (ou plutôt l'absence) des députés français, en moyenne, aux scrutins de l'assemblée nationale.
 
-{% notebook 20160215_ScrutinsAssemblee.ipynb cells[:] %}
+{% notebook posts/20160215_ScrutinsAssemblee.ipynb cells[:] %}

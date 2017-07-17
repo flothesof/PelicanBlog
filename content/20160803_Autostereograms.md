@@ -6,4 +6,4 @@ Tags: Optics, Illusions
 Category: Python
 Summary: In this post, we'll learn how to make our own autostereograms using two methods: shifted images and tiled random dot patterns.  
 
-{% notebook 20160803_Autostereograms.ipynb cells[:] %}
+{% notebook posts/20160803_Autostereograms.ipynb cells[:] %}

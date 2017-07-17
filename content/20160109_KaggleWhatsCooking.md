@@ -6,4 +6,4 @@ Tags: Machine Learning, Kaggle
 Category: Python
 Summary: In this post, we go through the basics of training a logistic regression on the Kaggle What's Cooking data. We also do some in-depth analysis on recipes and their ingredients. 
 
-{% notebook 20160109_KaggleWhatsCooking.ipynb cells[:] %}
+{% notebook posts/20160109_KaggleWhatsCooking.ipynb cells[:] %}

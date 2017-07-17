@@ -6,4 +6,4 @@ Tags: Math
 Category: Python
 Summary: When doing complex analysis, you can encounter so-called branch cuts. We explore this topic with the example of the square root function and show how to put the branch cut in different locations of the complex plane.
 
-{% notebook 20160420_UnderstandingBranchCuts.ipynb cells[:] %}
+{% notebook posts/20160420_UnderstandingBranchCuts.ipynb cells[:] %}

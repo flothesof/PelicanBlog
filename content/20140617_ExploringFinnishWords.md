@@ -5,5 +5,5 @@ slug: exploring-Finnish-words-with-IPython
 Tags: Languages
 Category: Python
 
-{% notebook 20140617_ExploringFinnishWords.ipynb cells[:] %}
+{% notebook posts/20140617_ExploringFinnishWords.ipynb cells[:] %}
 

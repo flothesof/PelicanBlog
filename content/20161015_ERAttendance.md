@@ -6,4 +6,4 @@ Tags: Statistics
 Category: Python
 Summary: In this post, we examine statistical data from a journal article about emergency room attendance and try to replicate its conclusions using elementary statistical testing. 
 
-{% notebook 20161015_SimpleStatisticalTestERAttendance.ipynb cells[:] %}
+{% notebook posts/20161015_SimpleStatisticalTestERAttendance.ipynb cells[:] %}

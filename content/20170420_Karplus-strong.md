@@ -6,4 +6,4 @@ Tags: Music
 Category: Python
 Summary: In this notebook, I present the Karplus-Strong algorithm and show how it can be applied to synthetize realistic guitar sounds using Python. 
 
-{% notebook 20170419_KarplusStrongAlgorithm.ipynb cells[:] %}
+{% notebook posts/20170419_KarplusStrongAlgorithm.ipynb cells[:] %}

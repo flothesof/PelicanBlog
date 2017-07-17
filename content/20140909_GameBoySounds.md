@@ -6,4 +6,4 @@ Tags: Gaming, Sound, Music
 Category: Python
 Summary: We examine hardware specs of the old school Game Boy and find ourselves enjoying 8 bit music with Python.
 
-{% notebook 20140909_GameBoySounds.ipynb cells[:] %}
+{% notebook posts/20140909_GameBoySounds.ipynb cells[:] %}

@@ -6,4 +6,4 @@ Tags: Data Visualization, Vélib
 Category: Python
 Summary: In this post, we will use an open dataset from the Vélib (Paris shared bicycle system) provider and do data visualization using pandas and bokeh.
 
-{% notebook 20160205_VisualizingVelibStations.ipynb cells[:] %}
+{% notebook posts/20160205_VisualizingVelibStations.ipynb cells[:] %}

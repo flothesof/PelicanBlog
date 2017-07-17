@@ -8,4 +8,4 @@ Summary: A fun summer project in which we learn how to stack bricks Jenga style.
 
 Before starting this post, I'd like to give credit to Apolline Pepin, who helped me designing the stacking algorithm on a nice summer day in the Pyrénées. Thanks again!
 
-{% notebook 20140808_BricksAndArches.ipynb cells[:] %}
+{% notebook posts/20140808_BricksAndArches.ipynb cells[:] %}

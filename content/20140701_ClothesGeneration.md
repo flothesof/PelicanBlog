@@ -5,4 +5,4 @@ slug: an-interactive-gallery-of-clothes
 Tags: Clothes, Real life
 Category: Python
 
-{% notebook 20140701_ClothesGeneration.ipynb cells[:] %}
+{% notebook posts/20140701_ClothesGeneration.ipynb cells[:] %}

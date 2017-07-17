@@ -5,4 +5,4 @@ slug: wave-boundary-reflection
 Tags: Waves, Physics
 Category: Python
 
-{% notebook 20140602_AWaveReflectingOnABoundary.ipynb cells[:] %}
+{% notebook posts/20140602_AWaveReflectingOnABoundary.ipynb cells[:] %}

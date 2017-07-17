@@ -6,4 +6,4 @@ Tags: Politique française
 Category: Python
 Summary: Dans ce billet, nous téléchargeons les données du ministère de l'intérieur à l'issue du premier tour des élections législatives 2017 et proposons un modèle probabiliste simple pour prédir les résultats du second tour.
 
-{% notebook 20170614_Legislatives.ipynb cells[:] %}
+{% notebook posts/20170614_Legislatives.ipynb cells[:] %}

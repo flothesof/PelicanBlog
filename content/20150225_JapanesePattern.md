@@ -6,4 +6,4 @@ Tags: Waves, Physics, Animations
 Category: Python
 Summary: In this post, we delve into graphical art based on an ancient Japanese wave pattern.
 
-{% notebook 20150225_JapanesePattern.ipynb cells[:] %}
+{% notebook posts/20150225_JapanesePattern.ipynb cells[:] %}

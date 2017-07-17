@@ -6,4 +6,4 @@ Tags: Machine Learning, Probability
 Category: Python
 Summary: As a follow up to the Kaggle What's Cooking challenge, we're proposing a probabilistic method based on naive baives classification to suggest better ingredient features.
 
-{% notebook 20160302_ProbabilisticIngredients.ipynb cells[:] %}
+{% notebook posts/20160302_ProbabilisticIngredients.ipynb cells[:] %}

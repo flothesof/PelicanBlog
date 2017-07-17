@@ -6,4 +6,4 @@ Tags: Fourier Transform, Waves
 Category: Python
 Summary: This post is all about the geometrical interpretation of Fourier transforms in the complex plane.
 
-{% notebook 20170206_SummingComplexExponentials.ipynb cells[:] %}
+{% notebook posts/20170206_SummingComplexExponentials.ipynb cells[:] %}

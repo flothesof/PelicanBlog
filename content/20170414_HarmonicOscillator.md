@@ -6,4 +6,4 @@ Tags: Numerical computation
 Category: Python
 Summary: In this notebook, we solve the harmonic oscillator problem using three different methods: sympy, our own finite difference solution and scipy's integrated ODE solving tools. 
 
-{% notebook 20170414_HarmonicOscillator.ipynb cells[:] %}
+{% notebook posts/20170414_HarmonicOscillator.ipynb cells[:] %}

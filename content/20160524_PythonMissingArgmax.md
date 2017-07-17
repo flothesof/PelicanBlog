@@ -6,4 +6,4 @@ Tags: Programming
 Category: Python
 Summary: In this post we discuss the fact that Python is missing a built-in argmax function and how it's actually there, but hidden within an optional argument to max!
 
-{% notebook 20160524_PythonMissingArgmax.ipynb cells[:] %}
+{% notebook posts/20160524_PythonMissingArgmax.ipynb cells[:] %}

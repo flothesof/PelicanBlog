@@ -6,4 +6,4 @@ Tags: Statistics
 Category: Python
 Summary: This post focuses on replicating the data from Jake VanderPlas' slides "Statistics for hackers".
 
-{% notebook 20161029_ReplicatingStatisticsForHackers.ipynb cells[:] %}
+{% notebook posts/20161029_ReplicatingStatisticsForHackers.ipynb cells[:] %}

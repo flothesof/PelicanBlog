@@ -6,4 +6,4 @@ Tags: Mesopotamia, Image Processing
 Category: Python
 Summary: In this blog post, we're applying the watershed transform to a cuneiform tablet using scikit-image.
 
-{% notebook 20160830_SegmentingAnImageWithWatershed.ipynb cells[:] %}
+{% notebook posts/20160830_SegmentingAnImageWithWatershed.ipynb cells[:] %}

@@ -6,4 +6,4 @@ Tags: Math, Numerical Simulation, Physics
 Category: Python
 Summary: In this notebook, I use code by Hans-Petter Langtangen to simulate a vibrating string using 1d finite differences. I then animate the simulation results and show some interesting vibration phenomenon in the frequency domain.
 
-{% notebook 20160421_1dFiniteDifferences.ipynb cells[:] %}
+{% notebook posts/20160421_1dFiniteDifferences.ipynb cells[:] %}
