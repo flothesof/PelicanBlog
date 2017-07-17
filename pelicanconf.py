@@ -43,7 +43,7 @@ MARKUP = ['md']
 
 # menu with items: archives, about me
 SHOW_ARCHIVES = True
-ABOUT_PAGE = '/pages/about.md' 
+ABOUT_PAGE = 'pages/about.md' 
                 
 # code highlighting (check README of theme for more info)
 COLOR_SCHEME_CSS = 'github.css'
