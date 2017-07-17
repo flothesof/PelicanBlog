@@ -1,6 +1,9 @@
 Title: About me
+slug: about
 date: 2014-07-03
 comments: false
+
+**Thank you for visiting my blog!**
 
 ##Florian LE BOURDAIS
 

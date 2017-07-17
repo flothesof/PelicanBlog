@@ -1,4 +1,5 @@
 ﻿Title: Les résultats du deuxième tour de l'élection législative 2017 : description et modélisation
+lang:fr
 date: 2017-06-30 20:12
 comments: true
 slug: resultats-legislatives-2017-second-tour
