@@ -45,8 +45,8 @@ MENUITEMS = [('Archives', '/archives.html')]
 COLOR_SCHEME_CSS = 'github.css'
 
 # notebook integration using liquid tags
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['liquid_tags.notebook', 'liquid_tags.img']
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['liquid_tags.img', 'pelican-ipynb.liquid']
 NOTEBOOK_DIR = 'posts'
 # we're not injecting the notebook header, because it pollutes the blog style
 #EXTRA_HEADER = open('_nb_header.html').read()
