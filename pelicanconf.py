@@ -14,7 +14,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_DATE_FORMAT = '%a, %d %b %Y'
 
 DEFAULT_LANG = 'en'
-LOCALE = 'en'
+LOCALE = 'en-US'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -32,14 +32,18 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # custom theme
-THEME = 'pelican-clean-blog/'
+THEME = './theme/'
 
 # social
 SOCIAL = (('twitter', 'https://twitter.com/frolianlb'),
           ('github', 'https://github.com/flothesof'))
 
+# specify markup language as markdown
+MARKUP = ['md']
+
 # menu with items: archives, about me
-MENUITEMS = [('Archives', '/archives.html')]
+SHOW_ARCHIVES = True
+ABOUT_PAGE = '/pages/about.md' 
                 
 # code highlighting (check README of theme for more info)
 COLOR_SCHEME_CSS = 'github.css'
@@ -47,21 +51,8 @@ COLOR_SCHEME_CSS = 'github.css'
 # notebook integration using liquid tags
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['liquid_tags.img', 'pelican-ipynb.liquid']
-NOTEBOOK_DIR = 'posts'
-# we're not injecting the notebook header, because it pollutes the blog style
-#EXTRA_HEADER = open('_nb_header.html').read()
-# however, to get mathjax properly working in the notebook posts, we need this basic header
-#header_name = 'custom_header.html'
-header_name = '_custom_nb_header.html'
-if not os.path.exists(header_name):
-    import warnings
-    warnings.warn("Custom header not found.  "
-                  "Rerun make html to finalize build.")
-else:
-    EXTRA_HEADER = open(header_name).read()
 
 # rendering mathjax in markdown posts directly
 PLUGINS.append('render_math')
 
-# since upgrade to Pelican 3.7, to prevent KeyError
-# MD_EXTENSIONS = []
+ENABLE_MATHJAX = True
