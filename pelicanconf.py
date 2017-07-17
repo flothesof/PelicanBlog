@@ -10,11 +10,16 @@ SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
+# localization: dates and formatting
 TIMEZONE = 'Europe/Paris'
 DEFAULT_DATE_FORMAT = '%a, %d %b %Y'
+DATE_FORMATS = {
+    'en': '%a, %d %b %Y',
+    'fr': '%d/%m/%Y',
+}
 
 DEFAULT_LANG = 'en'
-LOCALE = 'en-US'
+LOCALE = ('usa', 'en_US', 'fr', 'fr_FR')
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -43,7 +48,7 @@ MARKUP = ['md']
 
 # menu with items: archives, about me
 SHOW_ARCHIVES = True
-ABOUT_PAGE = 'pages/about.md' 
+ABOUT_PAGE = 'pages/about.html' 
                 
 # code highlighting (check README of theme for more info)
 COLOR_SCHEME_CSS = 'github.css'
