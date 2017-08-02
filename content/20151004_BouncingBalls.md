@@ -2,7 +2,7 @@
 date: 2015-10-04 19:14
 comments: true
 slug: bouncing-balls 
-Tags: Physics, Gravity 
+Tags: Numerical physics 
 Category: Python
 Summary: In this notebook, we'll go to the bottom of a thought that occured to me during a recent Lindy Hop class. 
 

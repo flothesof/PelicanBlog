@@ -2,7 +2,7 @@
 date: 2016-04-21 14:49
 comments: true
 slug: 1D-vibrating-string
-Tags: Math, Numerical Simulation, Physics
+Tags: Numerical physics
 Category: Python
 Summary: In this notebook, I use code by Hans-Petter Langtangen to simulate a vibrating string using 1d finite differences. I then animate the simulation results and show some interesting vibration phenomenon in the frequency domain.
 
