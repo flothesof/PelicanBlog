@@ -2,7 +2,7 @@
 date: 2016-05-26 17:41
 comments: true
 slug: internet-gdp-bokeh
-Tags: Bokeh, data vizualization
+Tags: Bokeh, Dataviz 
 Category: Python
 Summary: In this post, I'm using Bokeh to visualize world bank data about GDP and internet usage as a function of time.
 
