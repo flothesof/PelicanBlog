@@ -5,7 +5,7 @@ import os
 
 AUTHOR = u'Florian Le Bourdais'
 SITENAME = u"Frolian's blog"
-SITESUBTITLE = u'xkcd, Python, math and beyond'
+SITESUBTITLE = u'standing on the shoulders of PyGiants'
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
