@@ -61,3 +61,6 @@ PLUGINS = ['liquid_tags.img', 'pelican-ipynb.liquid']
 PLUGINS.append('render_math')
 
 ENABLE_MATHJAX = True
+
+# static paths
+STATIC_PATHS = ['images', 'pdfs']
