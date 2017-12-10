@@ -3,7 +3,7 @@ lang: en
 date: 2017-12-08 19:32
 comments: true
 slug: fun-with-the-Ulam-spiral
-Tags: Mathematics
+Tags: Mathematics, moviepy
 Category: Python
 Summary: Following an Advent of Code, we're examing the Ulam spiral and its implementation and end up with some nice GIFs. 
 
