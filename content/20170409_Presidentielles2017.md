@@ -17,7 +17,7 @@ Ces listes de propositions sont hébergées de manière ouverte sur le repo gith
 A l'aide des outils interactifs Jupyter/Python j'ai ensuite mis en ligne une interface graphique accessible à travers de la plateforme mybinder.org. Pour l'utiliser, il suffit de cliquer sur le lien suivant : <http://mybinder.org/repo/flothesof/presidentielles2017>. 
 
 Un aperçu de l'interface graphique est disponible ci-dessous : 
-![Alt Text]({filename}/images/presidentielles2017_mybinder.png)
+![Alt Text](images/presidentielles2017_mybinder.png)
 
 # Une application Android
 
