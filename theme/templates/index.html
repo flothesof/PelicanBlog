@@ -13,6 +13,9 @@
     </header>
 
     <div class="article_content">
+      {% if article.featured_image %}
+        <img class="featured-image" src="{{ article.featured_image }}">
+      {% endif %}
       {{ article.summary }}
     </div>
 
