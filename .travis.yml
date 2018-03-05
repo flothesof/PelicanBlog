@@ -4,7 +4,7 @@ matrix:
   include:
   - python: 3.6
 install:
-- pip install jupyter pelican markdown
+- pip install jupyter pelican markdown beautifulsoup4
 script:
 - git config --global user.email "TravisBot@nomail"
 - git config --global user.name "TravisBot"
