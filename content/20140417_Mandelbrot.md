@@ -4,5 +4,6 @@ comments: true
 slug: Mandelbrot-fractal
 Tags: Fractals, Math
 Category: Python
+Summary: The Mandelbrot fractal is a well known mathematical object, foremost for its beauty. In this post, we're going to explore how to draw it, with the help of a couple of Python commands.
 
 {% notebook posts/20140417_Mandelbrot.ipynb cells[:] %}

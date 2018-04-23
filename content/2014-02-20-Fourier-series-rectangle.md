@@ -4,5 +4,6 @@ comments: true
 slug: Fourier-series-rectangle
 Tags: Mathematics
 Category: Python
+Summary: Do you know the Fourier transform? In this post, we plot the Fourier transform of the rectangle function.
 
 {% notebook posts/20140220_SinesAndRectangles.ipynb cells[:] %}
