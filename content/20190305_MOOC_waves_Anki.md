@@ -33,7 +33,9 @@ I ended up with a bit over 60 cards from this class. Below are two examples card
 
 *I'm finally able to write a wave equation on my colleague's blackboards without looking it up on Wikipedia...*
 
-As you can see in the above cards, I've made liberal use of LaTeX support in Anki. Since I review the cards on my cell phone, I then use a stylus to write the equations on the screen before showing the answer of the flashcard. I find this a very enjoyable way to write math formulas.
+As you can see in the above cards, I've made liberal use of LaTeX support in Anki. Since I review the cards on my cell phone, I then use a stylus to write the equations on the screen before showing the answer of the flashcard. I find this a very enjoyable way to write math formulas. Below is a screenshot of what it looks like in practice:
+
+![AnkiScreenshot](/images/Anki_dynamics_card.png)
 
 I found the overall design of the MOOC well done. The videos were usually short and very clear. It was enjoyable to have three different professors explain the various topics. At the end of each week, research topic videos showed PhD students or researchers from Ecole Polytechnique presenting some of their work, some of which was fascinating - I'm thinking of the dynamic analysis of trees as well as the research on boat waves beyond the Kelvin wake.
 
@@ -52,5 +54,5 @@ Having said that, I'm now looking forward to my next MOOC. A very plausible cand
 
 If you're interested in the Fundamentals of waves and vibrations, here's its teaser!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cJN_3TLimww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/cJN_3TLimww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
