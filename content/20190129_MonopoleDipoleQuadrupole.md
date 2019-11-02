@@ -5,6 +5,7 @@ comments: true
 slug: monopole-dipole-quadrupole
 Tags: Animations, Waves, Complex Numbers
 Category: Python
+Image: /images/thumbnail_20190129_MonopoleDipoleQuadrupole.png
 Summary: In this post, we animate well known sound sources: monopole, dipole and quadrupole.
 
 {% notebook posts/20190129_MonopoleDipoleQuadrupole.ipynb cells[:] %}
