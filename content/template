@@ -5,6 +5,7 @@ comments: true
 slug: wave-boundary-reflection
 Tags: Waves, Physics
 Category: Python
+Image: /images/my-super-image.png # representative-image plugin data, can be deleted
 Summary: We're examining what happens when a wave hits a boundary normal to its propagation direction.
 
 {% notebook posts/20140602_AWaveReflectingOnABoundary.ipynb cells[:] %}
