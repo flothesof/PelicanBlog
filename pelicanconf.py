@@ -57,10 +57,12 @@ COLOR_SCHEME_CSS = 'github.css'
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['liquid_tags.img', 'pelican-ipynb.liquid', 'representative_image']
 
+# configuring notebook integration
+LIQUID_CONFIGS = (("IPYNB_FIX_CSS", "False", ""), 
+                  ("IPYNB_SKIP_CSS", "False", ""))
+
 # rendering mathjax in markdown posts directly
 PLUGINS.append('render_math')
-
-ENABLE_MATHJAX = True
 
 # static paths
 STATIC_PATHS = ['images', 'pdfs']
