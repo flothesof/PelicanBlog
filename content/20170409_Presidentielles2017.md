@@ -25,7 +25,7 @@ Avec l'encouragement de mon entourage, je me suis également lancé dans l'écri
 
 Elle propose le même principe avec quelques améliorations (un tirage au sort des questions un peu plus équilibré notamment). Vous pouvez la télécharger gratuitement (et sans publicité) sur le play store : <https://play.google.com/store/apps/details?id=com.frolianlb.presidentielles2017&hl=en>.
 
-![Alt Text]({filename}/images/presidentielles2017_play_store.png)
+![Alt Text]({static}/images/presidentielles2017_play_store.png)
 
 # Et maintenant ?
 

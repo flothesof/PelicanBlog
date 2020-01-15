@@ -40,7 +40,7 @@ The statistics for the MOOC Audio Signal Processing for Audio Applications I fin
 - Learners that obtained a grade >70% (got an Statement of Accomplishment): 351
 
 I made an illustration to convey a graphical intuition of this in the form of a Sankey diagram:
-![Alt Text]({filename}/images/moocs_are_hard.png)
+![Alt Text]({static}/images/moocs_are_hard.png)
 
 So, to sum this section up, MOOCs are hard. Few finish them the way they're meant (2% in the above case). It takes determination and time.
 

@@ -43,7 +43,7 @@ Finally, the last quizz took the student by the hand to solve a 4-pendulum probl
 
 
 <video width="320" height="240" style="display: block; margin-left: auto; margin-right: auto;" controls>
-  <source src="{filename}/images/modal_synthesis.mp4" type="video/mp4">
+  <source src="{static}/images/modal_synthesis.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
