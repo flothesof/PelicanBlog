@@ -3,7 +3,7 @@ lang: en
 date: 2019-03-06 21:26
 comments: true
 slug: anki-MOOC-fundamentals-waves-vibrations
-Tags: MOOC, Coursera
+Tags: MOOC, Anki
 Category: Python
 Summary: I recently finished a MOOC called Fundamentals of waves and vibrations, from Ecole Polytechnique. It was the first time I combined a MOOC with Anki, a well-known flashcard applications. In this post, I'll try to say what I liked about this experience, as well as about the course.
 

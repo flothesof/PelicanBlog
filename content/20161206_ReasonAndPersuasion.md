@@ -2,7 +2,7 @@ Title: Finishing Reason and Persuasion, a Coursera MOOC about Plato
 date: 2016-12-06 08:04
 comments: true
 slug: plato-MOOC-Coursera
-Tags: MOOC, Philosophy, Coursera
+Tags: MOOC, Philosophy
 Category: Python
 Summary: This post summarizes my impressions after taking the Coursera MOOC "Reason and Persuasion: Thinking Through Three Dialogues By Plato" by John Holbo (University of Singapore).
 
