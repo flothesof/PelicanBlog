@@ -2,7 +2,7 @@
 date: 2015-09-28 22:42
 comments: true
 slug: sms-tools-MacOSX-Anaconda
-Tags: Anaconda, Coursera, Mac OS X 
+Tags: Anaconda, MOOC, Mac OS X 
 Category: Python
 Summary: This post is dedicated to installing the sms-tools software suite using a virtual environment made with Anaconda under Mac OS X. 
 
