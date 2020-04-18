@@ -18,12 +18,20 @@ SITEURL = 'http://flothesof.github.io'
 # Disqus integration 
 DISQUS_SITENAME = "froliansblog"
 
-# RSS/Atom feeds
+# activate RSS feed (but not Atom)
 FEED_DOMAIN = SITEURL
-FEED_ATOM = 'atom.xml'
-FEED_MAX_ITEMS = 10
+FEED_RSS = 'rss.xml'
 
+# activate feed summary (smaller sized feeds)
+RSS_FEED_SUMMARY_ONLY = True	
+
+# show feed icon in theme
+SHOW_FEED = True
+
+
+# Start from fresh folder
 DELETE_OUTPUT_DIRECTORY = True
 
 # Google Analytics
 GOOGLE_ANALYTICS = 'UA-68753870-1'
+
