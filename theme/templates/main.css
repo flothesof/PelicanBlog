@@ -315,3 +315,12 @@ article .meta a.comments_btn:hover {
   margin-right: auto;
   max-height: 350px;
 }
+
+.inverted-svg {
+  filter: invert(50%);
+}
+
+.inverted-svg:hover {
+  filter: invert(100%);
+}
+
