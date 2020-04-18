@@ -316,11 +316,22 @@ article .meta a.comments_btn:hover {
   max-height: 350px;
 }
 
+/* These two styles allow my Twitter and Github icons to match the them */
+
 .inverted-svg {
   filter: invert(50%);
 }
 
 .inverted-svg:hover {
   filter: invert(100%);
+}
+
+/* Blog subtitle styling */
+
+.blog-subtitle {
+  font-size: 10px;
+  font-style: italic;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
