@@ -18,14 +18,20 @@ SITEURL = 'http://flothesof.github.io'
 # Disqus integration 
 DISQUS_SITENAME = "froliansblog"
 
-# activate RSS feed (but not Atom)
+# activate RSS and ATOM feed
 FEED_DOMAIN = SITEURL
 FEED_RSS = 'rss.xml'
+FEED_ATOM = 'atom.xml'
 
-# activate feed summary (smaller sized feeds)
-RSS_FEED_SUMMARY_ONLY = True	
+# the RSS and ATOM feeds both contain the full notebooks, which makes them big
+# by limiting the number of items to the last ones, we try to limit this problem
+FEED_MAX_ITEMS = 10
 
-# show feed icon in theme
+# by default, the RSS feed only holds the summary, but we want it to hold full articles
+# (see http://docs.getpelican.com/en/latest/settings.html#feed-settings for details)
+RSS_FEED_SUMMARY_ONLY = False	
+
+# show feed icon in theme (this triggers a Jinja if)
 SHOW_FEED = True
 
 
