@@ -29,11 +29,28 @@
         </div>
 
         <div class="meta">
+            <hr>
+            {% if article.lang == 'fr' %}
+                <p>Cet article a été étiqueté avec les termes suivants :</p>
+            {% else %}
+                <p>This article has been tagged with the following terms:</p>
+            {% endif %}
             <div>
                 {% for tag in article.tags %}
                     <a href="{{ SITEURL }}/{{ tag.url }}" class="tag">{{ tag }}</a>
                 {% endfor %}
             </div>
+            <hr>
+            <div class="share">
+                <ul>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ SITEURL }}/{{ article.url }}&amp;t={{ article.title }}" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Share on Facebook" src="/theme/social_flat_rounded_rects_svg/Facebook.svg"></a><a></a></li>
+                    <li><a href="https://twitter.com/share?url={{ SITEURL }}/{{ article.url }}&amp;text={{ article.title }}&amp;via=frolianlb" title="Tweet" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Tweet" src="/theme/social_flat_rounded_rects_svg/Twitter.svg"></a><a></a></li>
+                    <li><a href="https://getpocket.com/save?url={{ SITEURL }}/{{ article.url }}&amp;title={{ article.title }}" title="Add to Pocket" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Add to Pocket" src="/theme/social_flat_rounded_rects_svg/Pocket.svg"></a><a></a></li>
+                    <li><a href="https://news.ycombinator.com/submitlink?u={{ SITEURL }}/{{ article.url }}&amp;t={{ article.title }}" title="Submit to Hacker News" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Submit to Hacker News" src="/theme/social_flat_rounded_rects_svg/HackerNews.svg"></a><a></a></li>
+                    <li><a href="https://www.reddit.com/submit?url={{ SITEURL }}/{{ article.url }}&amp;title={{ article.title }}" title="Submit to Reddit" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Submit to Reddit" src="/theme/social_flat_rounded_rects_svg/Reddit.svg"></a><a></a></li>
+                </ul>
+            </div>
+            <hr>
         </div>
     </article>
 
