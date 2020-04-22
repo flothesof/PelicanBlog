@@ -224,7 +224,7 @@ article .meta a.comments_btn:hover {
   color: #DDD;
 }
 .post article .meta {
-  margin: 50px 0 100px;
+  margin: 50px 0 50px;
 }
 .list {
   max-width: 800px;
@@ -314,4 +314,39 @@ article .meta a.comments_btn:hover {
   margin-left: auto;
   margin-right: auto;
   max-height: 350px;
+}
+
+/* These two styles allow my Twitter and Github icons to match the them */
+
+.inverted-svg {
+  filter: invert(50%);
+}
+
+.inverted-svg:hover {
+  filter: invert(100%);
+}
+
+/* Blog subtitle styling */
+
+.blog-subtitle {
+  font-size: 10px;
+  font-style: italic;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+/* These elements allow me to configure my sharing icons */
+
+.share ul {
+  text-align: right;
+}
+
+.share li {
+  display: inline;
+  padding: 0 5px;
+}
+
+.share img {
+  width: 2em;
 }
