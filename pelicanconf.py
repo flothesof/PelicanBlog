@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 import os
+from pelican_jupyter import liquid as nb_liquid
 
 AUTHOR = u'Florian Le Bourdais'
 SITENAME = u"Frolian's blog"
@@ -53,11 +54,12 @@ COLOR_SCHEME_CSS = 'github.css'
 
 # notebook integration using liquid tags
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['liquid_tags.img', 'pelican-ipynb.liquid', 'representative_image']
+PLUGINS = ['liquid_tags.img', nb_liquid, 'representative_image']
 
 # configuring notebook integration
 LIQUID_CONFIGS = (("IPYNB_FIX_CSS", "False", ""), 
-                  ("IPYNB_SKIP_CSS", "False", ""))
+                  ("IPYNB_SKIP_CSS", "False", ""), 
+                  ("IPYNB_EXPORT_TEMPLATE", "base", ""),)
 
 # rendering mathjax in markdown posts directly
 PLUGINS.append('render_math')
