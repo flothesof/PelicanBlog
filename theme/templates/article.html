@@ -2,15 +2,6 @@
 {% block title %}{{ article.title }}{% endblock %}
 {% block headerimg %}{% if article.headerimg %}{{ article.headerimg }}{% else %}{{ DEFAULT_HEADER_BG }}{% endif %}{% endblock %}
 
-{% block extra_head %}
-{% if 'angular' in article.include %}
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-{% endif %}
-{% if 'jquery' in article.include %}
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-{% endif %}
-{% endblock %}
-
 {% block content %}
 <div class="container post">
     <article>
