@@ -57,9 +57,11 @@ PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['liquid_tags.img', nb_liquid, 'representative_image']
 
 # configuring notebook integration
+# regarding template errors due to pelican-jupyter, see
+# https://github.com/danielfrg/pelican-jupyter/issues/126
 LIQUID_CONFIGS = (("IPYNB_FIX_CSS", "False", ""), 
                   ("IPYNB_SKIP_CSS", "False", ""), 
-                  ("IPYNB_EXPORT_TEMPLATE", "base", ""),)
+                  ("IPYNB_EXPORT_TEMPLATE", "basic", ""),)
 
 # rendering mathjax in markdown posts directly
 PLUGINS.append('render_math')
