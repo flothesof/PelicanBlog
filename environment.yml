@@ -5,11 +5,11 @@ channels:
 dependencies:
   - python=3.10
   - pip
-  - jupyter 
-  - pelican 
-  - markdown 
-  - beautifulsoup4 
-  - nbconvert 
-  - ipython 
   - pip:
+    - jupyter 
+    - pelican 
+    - markdown 
+    - beautifulsoup4 
+    - nbconvert 
+    - ipython 
     - pelican-jupyter
