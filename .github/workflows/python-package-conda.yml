@@ -24,4 +24,16 @@ jobs:
     - name: Print current directory data
       run: |
         ls
+    - name: Activate environment
+      run: |
+        conda activate pelican_env
+    - name: Generate HTML content
+      run: |
+        make publish    
+    - name: Clone existing blog source
+      run: |
+        mkdir _build && cd _build && git clone https://github.com/flothesof/flothesof.github.io.git
+    - name: Print current directory data
+      run: |
+        ls
 
