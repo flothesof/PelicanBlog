@@ -24,10 +24,14 @@ jobs:
     - name: Generate HTML content
       run: |
         make publish    
-    - name: Clone existing blog source
-      run: |
-        mkdir _build && cd _build && git clone https://github.com/flothesof/flothesof.github.io.git --depth 1
-    - name: Update generated blog files
-      run: |
-        rsync -r output/* _build/flothesof.github.io
+    - name: Pushes to blog repository
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source-directory: 'output'
+        destination-github-username: 'flothesof'
+        destination-repository-name: 'flothesof.github.io'
+        user-email: gh-actions@github.com
+        target-branch: master
 
