@@ -1,0 +1,7 @@
+jupyter 
+pelican 
+markdown 
+beautifulsoup4 
+nbconvert 
+ipython 
+pelican-jupyter

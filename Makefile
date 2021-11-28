@@ -107,7 +107,7 @@ s3_upload: publish
 cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
-deploy: 
+deploy_win: 
 	cd _build/$(DEPLOYREPOSITORY) && git pull
 	xcopy /s/y output _build\flothesof.github.io
 	cd _build/$(DEPLOYREPOSITORY) && git add -A && git commit -m "make deploy"
@@ -118,11 +118,6 @@ deploy_mac:
 	rsync -r $(OUTPUTDIR)/* _build/flothesof.github.io
 	cd _build/$(DEPLOYREPOSITORY) && git add -A :/ && git commit -m "make deploy"
 	cd _build/$(DEPLOYREPOSITORY) && git push origin master
-
-deploy_travis:
-	rsync -r $(OUTPUTDIR)/* _build/flothesof.github.io
-	cd _build/$(DEPLOYREPOSITORY) && git add -A :/ && git commit -m "Travis build $(TRAVIS_BUILD_NUMBER)"
-	@cd _build/$(DEPLOYREPOSITORY) && git push -fq https://${GH_TOKEN}@github.com/flothesof/flothesof.github.io.git master > /dev/null
 
 clean_mac:
 	rm -r cache
