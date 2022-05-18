@@ -8,4 +8,4 @@ Category: Python
 Image: /images/thumbnail_20220518_threeSprings.png
 Summary: A short animation of a mass connected to three massless springs.
 
-{% notebook posts/20220518_threeSprings.png.ipynb cells[:] %}
+{% notebook posts/20220518_threeSprings.ipynb cells[:] %}
