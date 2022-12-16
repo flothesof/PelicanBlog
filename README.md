@@ -26,6 +26,8 @@ Manual build:
 Serve locally after build:
 - `pelican -l`
 
+Other options:
+- `make deploy` (deploys built site) 
 ## Continuous integration 
 
 An automatic build with Github actions is done on every push (check `.github/workflows/python-build-deploy-pelican-blog.yml` for details).

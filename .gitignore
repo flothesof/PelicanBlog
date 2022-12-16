@@ -12,3 +12,5 @@ content/.DS_Store
 *.pid
 .idea/
 desktop.ini
+content/other/gmsh-tutorial/mesh_regions.vtk
+content/other/gmsh-tutorial/mesh.mesh
