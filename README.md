@@ -6,32 +6,36 @@ How this repository works
 This repository is used to generate the content for the blog at [http://flothesof.github.io](http://flothesof.github.io). It works with the help of *git submodules* for three critical parts of the blog:
 
 - the plugins directory (from [https://github.com/getpelican/pelican-plugins](https://github.com/getpelican/pelican-plugins))
-- the IPython Notebooks used as the main content of this blog (they can be found at [https://github.com/flothesof/posts](https://github.com/flothesof/posts))
+- the ~~IPython~~ Jupyter Notebooks used as the main content of this blog (they can be found at [https://github.com/flothesof/posts](https://github.com/flothesof/posts))
 
 How to publish the content of this site
 =======================================
 
 ## Create content
 
-- write content in an IPython post, commit changes to submodule posts and push them
-- create a markdown file for the post, add it to tree
-- add changes from posts submodule to update tree to latest version
+- write content in a Jupyter notebook, commit changes to submodule `posts` and push them
+- create a markdown file for the post in `content` (typically by copypasting `content\template`), including the previously authored Jupyter notebook, add it to tree
+- add changes from `posts` submodule to update tree to latest version
 - commit changes and push
 
 ## Build
 
 Manual build:
-- make publish: generates output for site
-- make deploy: push to github (Windows)
-- make deploy_mac: push to github (Mac)
+- `pelican`   
 
-Or automatic build with Github actions on every push (check .github/workflows/python-build-deploy-pelican-blog.yml for details).
+Serve locally after build:
+- `pelican -l`
+
+## Continuous integration 
+
+An automatic build with Github actions is done on every push (check `.github/workflows/python-build-deploy-pelican-blog.yml` for details).
+If the build is successful, it is also deployed to the blog website.
 
 
-Cheetlist for Working with submodules
+Cheatlist for Working with submodules
 =====================================
 
-I've had quite a lot of trouble working with submodules. Below is a short summary of what I learnt.
+I've had quite a lot of trouble working with the `pelican-plugins` submodule. Below is a short summary of what I learnt.
 
 ## Adding a submodule to this blog
 

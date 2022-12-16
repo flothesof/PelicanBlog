@@ -10,3 +10,5 @@ cache/ArticlesGenerator-Readers
 _nb_header.html
 content/.DS_Store
 *.pid
+.idea/
+desktop.ini

@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 import os
-from pelican_jupyter import liquid as nb_liquid
 
 AUTHOR = u'Florian Le Bourdais'
 SITENAME = u"Frolian's blog"
@@ -11,7 +10,7 @@ SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
-# localization: dates and formatting
+#  localization: dates and formatting
 TIMEZONE = 'Europe/Paris'
 DEFAULT_DATE_FORMAT = '%a, %d %b %Y'
 DATE_FORMATS = {
@@ -29,17 +28,16 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # custom theme
 THEME = './theme/'
 
 # social
-SOCIAL = (('twitter', 'https://twitter.com/frolianlb'),
+SOCIAL = (('mastodon', 'https://mastouille.fr/@frolian'),
           ('github', 'https://github.com/flothesof'))
 
 # specify markup language as markdown
@@ -47,24 +45,27 @@ MARKUP = ['md']
 
 # menu with items: archives, about me
 SHOW_ARCHIVES = True
-ABOUT_PAGE = 'pages/about.html' 
-                
+ABOUT_PAGE = 'pages/about.html'
+
 # code highlighting (check README of theme for more info)
 COLOR_SCHEME_CSS = 'github.css'
 
-# notebook integration using liquid tags
+# declaring plugins to be used, some being pip installed (e.g. liquid_tags) and
+# others being in the local repo folder (e.g. representative_image)
+# `render_math` allows rendering mathjax in markdown posts directly
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['liquid_tags.img', nb_liquid, 'representative_image']
+PLUGINS = ['pelican.plugins.liquid_tags', 'representative_image', 'render_math']
 
-# configuring notebook integration
-# regarding template errors due to pelican-jupyter, see
-# https://github.com/danielfrg/pelican-jupyter/issues/126
-LIQUID_CONFIGS = (("IPYNB_FIX_CSS", "False", ""), 
-                  ("IPYNB_SKIP_CSS", "False", ""), 
-                  ("IPYNB_EXPORT_TEMPLATE", "basic", ""),)
+# configuring liquid tags (img, and in particular notebook support)
+LIQUID_TAGS = ["img", "notebook"]
+NOTEBOOK_DIR = '.'
+from io import open
 
-# rendering mathjax in markdown posts directly
-PLUGINS.append('render_math')
+if os.path.exists("_nb_header.html"):
+    EXTRA_HEADER = open('_nb_header.html', encoding='utf-8').read()
+else:
+    print(
+        "WARNING: the file _nb_header.html needed for Jupyter notebook output seems to be missing. This is a critical error.")
 
 # static paths
-STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['images', 'pdfs', 'other']

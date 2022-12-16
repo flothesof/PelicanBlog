@@ -319,7 +319,7 @@ article .meta a.comments_btn:hover {
 /* These two styles allow my Twitter and Github icons to match the them */
 
 .inverted-svg {
-  filter: invert(50%);
+  filter: invert(35%);
 }
 
 .inverted-svg:hover {
