@@ -8,4 +8,4 @@ Category: Python
 Image: /images/thumbnail_20240206_AutoDiffValDer.png
 Summary: We're examining what happens when a wave hits a boundary normal to its propagation direction.
 
-{% notebook posts/20240206_AutoDiffValDer.ipynb.ipynb cells[:] %}
+{% notebook posts/20240206_AutoDiffValDer.ipynb cells[:] %}
