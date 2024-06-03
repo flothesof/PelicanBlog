@@ -1,4 +1,4 @@
-![Build status](https://github.com/flothesof/PelicanBlog/actions/workflows/python-build-deploy-pelican-blog.yml/badge.svg)
+![github actions build status](https://github.com/flothesof/PelicanBlog/actions/workflows/python-build-deploy-pelican-blog.yml/badge.svg)
 
 How this repository works
 =========================
